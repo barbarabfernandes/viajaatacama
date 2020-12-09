@@ -1,0 +1,35 @@
+table{
+  border-collapse: collapse;
+  width: 70%;
+  border: 1px solid #666;
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+}
+thead{
+
+  border-top: 1px solid #a5a5a5;
+  border-bottom: 1px solid #a5a5a5;
+}
+tr:hover{
+  background-color: #FFDF2B;
+  color: #000;
+}
+thead tr:hover{
+  background-color: transparent;
+  color: inherit;
+}
+tr:nth-child(even){
+    background-color: #ccc;
+}
+th{
+	background-color: #0B89A8;
+	font-weight: bold;
+	text-align: left;
+	color: #fff;
+}
+th, td{
+  padding: 0.1em 1em;
+}
+
+		

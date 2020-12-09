@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+#cabecalho
+{
+	width: 100%;
+	height: 100px;
+	float: top;
+	background-color: #545454;	
+}
+#logo
+{
+	width: 300px;
+	height: 100%;
+}
+#redes
+{
+	margin-top: 30px;
+	width: 50px;
+	height: 40px;
+	float: right;
+}
+#menu
+{
+	width: 150px;
+	height: 100%;
+	float: left;
+	background-color: #222;
+	border: 1px solid #222;
+}
+#conteudo
+{
+	width: 100%;
+	height: 50px;
+	float: left;
+	background-color: #222;
+	max-width:100%;
+	max-height:100%;
+	border: 1px solid #222;	
+}
+#rodape_home
+{
+	margin-top: 650px;
+	width: 100%;
+	height: 65px;
+	float: left;
+	background-color: #222;
+	border: 1px solid color: #222;
+	color: white;
+}
+#rodape_mapa
+{
+	margin-top: 50px;
+	width: 100%;
+	height: 65px;
+	float: left;
+	background-color: #222;
+	border: 1px solid color: #222;
+	color: white;
+}
+#rodape_sobre
+{
+	margin-top: 300px;
+	width: 100%;
+	height: 70px;
+	float: left;
+	background-color: #222;
+	border: 1px solid color: #222;
+	color: white;
+}
+#rodape_fale
+{
+	margin-top: 330px;
+	width: 100%;
+	height: 65px;
+	float: left;
+	background-color: #222;
+	border: 1px solid color: #222;
+	color: white;
+}
+#rodape_valores
+{
+	margin-top: -5px;
+	width: 100%;
+	height: 65px;
+	float: left;
+	background-color: #222;
+	border: 1px solid color: #222;
+	color: white;
+}
+#rodape2
+{
+	margin-top:20px;
+	width: 100%;
+	height: 65px;
+	float: left;
+	background-color: #222;
+	border: 1px solid color: #222;
+	color: white;
+}
+#fale_c
+{
+	width: 100%;
+	height: 40px;
+	float: top;
+	margin-top: 90px;
+}
+.container{
+	z-index:1;
+}
+#cores_link
+{
+	color: white;
+	cursor: pointer;
+}
+#sobre
+{
+	width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#imgsobre
+{
+	width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#e-mail
+{
+	width: 250px;
+	height: 600px;
+	float: right;
+	background-color: #8A2BE2;
+}
+#tabela_user
+{
+	width: 100%;
+	height: 300px;
+	background-color: #black;
+}
+#corpoimg
+{
+	width: 50%;
+	float: left;
+	margin-left: 60px;
+	margin-right: 25px;
+}
+#corpoimg2
+{
+	width: 90%;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+#corpoimg3
+{
+	width: 30%;
+	float: right;
+	margin-left: 25px;
+	margin-right: 60px;
+}
+#corpoimg4
+{
+	width: 12%;
+	margin-left: 25px;
+	margin-right: 60px;
+}
+p
+{
+	text-align: left;
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+}
+h1
+{
+	float: left;
+	font-weight: normal;
+	font-family: 'Raleway', sans-serif;
+	font-size: 13pt;
+	text-align: justify;
+	margin: 1px 60px 1px;
+}
+h2
+{
+	font-size: 24pt;
+	font-family: 'Raleway', sans-serif;
+	color: black;
+	text-align: center;
+}
+h3
+{
+	font-weight: normal;
+	font-family: 'Raleway', sans-serif;
+	font-size: 13pt;
+	text-align: justify;
+	margin: 1px 60px 1px;
+}
+h4
+{
+	font-family: 'Raleway', sans-serif;
+	font-size: 13pt;
+	text-align: left;
+	margin: 1px 60px 1px;
+}
+h5
+{
+	text-align: right;
+	font-size: 11px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+}
+h6
+{
+	text-indent: 2em;
+	font-weight: normal;
+	font-family: 'Raleway', sans-serif;
+	font-size: 13pt;
+	text-align: justify;
+	margin: 1px 60px 1px;
+}
