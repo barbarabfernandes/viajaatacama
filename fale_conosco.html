@@ -1,17 +1,17 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="pt-br">
 	<head>
 		<meta charset="UTF-8">
 		<title>Viaja Atacama</title>
-		<meta name="viewport" content="width=device-width,initial-scale=1"/>
-		<link rel="stylesheet" href="/viajaatacama/css/bootstrap.css">
-		<link rel="stylesheet" href="/viajaatacama/css/slider.css">
-		<link rel="stylesheet" href="/viajaatacama/css/estilos.css">	
+		<meta name="viewport" content="width=device-width,initial-scale=1"/>		
+		<link rel="stylesheet" type="text/css" href="/viajaatacama/css/form.css"> 
+		<link rel="stylesheet" type="text/css" href="/viajaatacama/css/estilos.css">		
+		<link rel="stylesheet" href="/viajaatacama/css/tabela_responsivel.css">
 		<link rel="stylesheet" href="/viajaatacama/css/menu.css">		
 	</head>	
-	<body bgcolor="#545454">
+	<body>
 		<div id="cabecalho">		
-			<a href="/viajaatacama/index.html"><img src="/viajaatacama/images/logo.png" id="logo"></a>
+			<a href="/viajaatacama/index.html"><img src="/viajaatacama/images/logo.png" id="logo">
 			<a href="https://www.tripadvisor.com/" target="_blank"><img src="/viajaatacama/images/logo_trip.png " id="redes" title="Tripadvisor"></a>	
 			<a href="https://www.facebook.com/" target="_blank"><img src="/viajaatacama/images/logo_face.png " id="redes" title="Facebook"></a>
 			<a href="https://www.instagram.com/" target="_blank"><img src="/viajaatacama/images/logo_insta.png " id="redes" title="Instagram"></a>						
@@ -44,48 +44,22 @@
 		</div>
 		<!-- FIM DO MENU -->
 		
-		<div class="container">
-			<header class="hide">
-			</header>
-			
-			<!-- INICIO DO SLIDER -->
-			<section class="slider">
-				<div class="slider_box">
-					<article class="slider_item active" data-slider-bg="/viajaatacama/images/slide1.jpg">
-						<div class="slider_content">
-							<h2>SOBRE NÓS</h2>
-							<p>Somos agência de turismo e tour operador. Desenvolvemos uma filosofia de serviço superior, sendo esta a principal característica de cada um dos nossos programas.</p>
-						</div>
-					</article>
-
-					<article class="slider_item" data-slider-bg="/viajaatacama/images/slide2.jpg">
-						<div class="slider_content">
-							<h2>NOSSOS PASSEIOS</h2>
-							<p>- Valle de la Luna<br>
-							- Lagunas Altiplânicas<br>
-							- Laguna Cejar<br>
-							- Termas de Puritama<br>
-							- Geysers El Tatio<br>
-							- Tour Astronômico<br></p>
-						</div>
-					</article>
-
-					<article class="slider_item" data-slider-bg="/viajaatacama/images/slide3.jpg">
-						<div class="slider_content">
-							<h2>LUGAR MÁGICO</h2>
-							<p>Venha conhecer de perto a magia do deserto, temos o roteiro ideal pra você!</p>
-						</div>
-					</article>
-
+		<div id = "fale_c">
+			<h2>Fale Conosco</h2><br><br>
+			<form action="https://formspree.io/barbarabfernandes@gmail.com" method="POST">
+				<p><input class="fale" name="nome" placeholder="Nome" required size="40"></p>
+				<p><input class="fale" name="_replayto" placeholder="E-mail" required size="40"></p>
+				<p><label for="message">
+					<textarea class="fale" name="mensagem" placeholder="Digite sua mensagem..." cols = "60" rows = "8"></textarea>
+				</p>
+				<div id="btn">
+					<p><input id="btn" type="submit" value="   Enviar   "></p>
 				</div>
-				<div class="slider-prev">&lt;</div>
-				<div class="slider-next">&gt;</div>
-			</section>
-			 <!--FIM DO SLIDER -->
-
+				<p><input type="hidden" name="_next" value="/viajaatacama/faleconosco_enviado.html"></p>
+			</form>
 		</div>
 		
-		<div id = "rodape_home">
+		<div id = "rodape_fale">
 			<h5><br>
 				Viaja Atacama &#169;
 			</h5>
@@ -97,7 +71,5 @@
 			</h5>	
 		</div>
 		
-		<script src="/viajaatacama/js/jquery.js"></script>
-		<script src="/viajaatacama/js/slider.js"></script>
 	</body>
 </html>
